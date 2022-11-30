@@ -4,7 +4,7 @@ setup(
     name='DSSS Homework 5',
     version='0.1',
     packages=find_packages(),
-    install_requires=['numpy', 'Pillow', 'numba', 'turtle', 'random', 'seaborn'],
+    install_requires=['numpy', 'turtle', 'random'],
     url='',
     license='',
     author='Deeksha',
