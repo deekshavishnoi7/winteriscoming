@@ -1,11 +1,11 @@
-from setuptools import setup , find_packages
+from distutils.core import setup
+from setuptools import find_packages
+
 setup(
-    name='DSSS Homework 5',
-    version='1.1',
+    name="DSSS Homework 5 - Snowflake",
+    version="0.1",
+    author="Deeksha",
+    author_email="deeksha.vishnoi@fau.de",
     packages=find_packages(),
-    url='',
-    license='',
-    author='Deeksha',
-    author_email='deekshavishnoi7@gmail.com',
-    description='Setup file for \'Let It Snow\''
+    install_requires=["numpy", "turtles"],
 )
