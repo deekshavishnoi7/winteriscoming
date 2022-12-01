@@ -1,8 +1,8 @@
-from setuptools import setup
+from setuptools import setup , find_packages
 setup(
     name='DSSS Homework 5',
     version='1.1',
-    packages=['turtle', 'numpy', 'random'],
+    packages=find_packages(),
     url='',
     license='',
     author='Deeksha',
